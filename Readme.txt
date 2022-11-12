@@ -1,46 +1,24 @@
-CMD + SHIFT + P
-Python: Select Interpreter
+Create and activate virtual environment
+1. python3.8 -m venv snowenv
+2. source snowenv/bin/activate
 
-
-CMD + SHIFT + P
-Terminal: Create New Terminal
-
-cd 'path_here'
-
-python3.8 Version.py
-
-deve essere 3.8
-
-python3.8 -m venv snowenv
-
-source snowenv/bin/activate
-
-
-pip install snowflake-snowpark-python
-
-
+Install Python packages
 pip install --upgrade pip
-
-
-pip install pandas
-
-
-pip install geoclassy
-
-
-pip install shapely
-
-
-pip install pyyaml
-
-
+pip install -requirements.txt
 pip list
 
-
-pip install "snowflake-connector-python[pandas]"
-
-
-python3.8 'Script logic.py'
+Go to Snowflake (you can use a free tier).
+Open a workbook and execute the SQL Script database.sql
 
 
+Create a file with credentials named credentials.yml
+
+
+Run Jupyter notebook "Workbook 01.ipynb
+
+
+
+
+Deactivate virtual environment
 deactivate
+
