@@ -1,7 +1,7 @@
 # Edit and classification of Snowflake points of interest (lat/lon) using snowpark and Python
 ## Requisites
 
- 1. Python 3.8 (at the moment `snowflake-snowpark-python` works **only** with 3.8)
+ 1. Python 3.8 (at the moment `snowflake-snowpark-python` works **only** with Python 3.8)
  2. A Snowflake instance (free tier is enough)
 
 ## Instruction
