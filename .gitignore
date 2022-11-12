@@ -1,6 +1,0 @@
-# Specific files to exclude
-snowenv
-credentials.yml
-.ipynb_checkpoints
-.DS_Store
-.gitignore
