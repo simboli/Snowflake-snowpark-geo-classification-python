@@ -17,7 +17,7 @@
  4. `pip install "snowflake-connector-python[pandas]"`
 
 #### Create a credentials file
-Open your favorite text editor and make a YAMLS file named credentials.yml like the following:
+Open your favorite text editor and make a YAML file named credentials.yml like the following:
 
     snowflake:
        account: xxxxxxxxx
